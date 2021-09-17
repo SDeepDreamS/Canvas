@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas_107062211</title>
+    <meta charset="UTF-8"><!--can use Chinese-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <script src="http://hongru.github.io/proj/canvas2image/canvas2image.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<canvas id="canvas">Your browser does not support canvas element.</canvas>
+<div id="control" class="down">
+    <div class="container">
+        <h1 class="heading">Canvas.</h1>
+        <h2 class="subheading">by 107062211</h2><!--
+     --><div class="control-box">
+            <div class="control-header">Toolkit</div>
+            <div id="tools" class="control-inner">
+            </div>
+        </div><!--
+     --><div class="control-box brush">
+        <div class="control-header">Brush Settings</div>
+            <div class="brush">
+                <div class="control-inner">
+                    <div class="control-header" style="margin-top:10px!important">Size</div>
+                    <input id="brush" type="text" value="5"/>
+                    <div class="control-header" style="margin-top:10px!important">Color</div>
+                    <input id="color" type="color" value="#00B16A"/>
+                </div>
+            </div>
+        </div>
+        <div class="control-box brush">
+        <div class="control-header">Text and Upload</div>
+            <div class="brush">
+                <div class="control-inner">
+                    <div class="control-header" style="margin-top:10px!important">Size</div>
+                    <input id="fontsize" type="text" value="14"/>
+                    <div class="control-header" style="margin-top:10px!important">fontstyle</div>
+                    <select id="fontstyle">
+                        <option value="sans-serif">sans-serif</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Courier New">Courier New</option>
+                    </select>
+                    <div class="control-header" style="margin-top:10px!important">upload</div>
+                    <input type="file" id="files" name="files[]" accept = "image/*"  multiple />
+                </div>
+            </div>
+        </div>
+     --><div class="control-box palette">
+            <div class="control-header">Palette</div>
+            <div id="paints" class="control-inner">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="gt" class="github down"><a href="" target="blank"><i class="fas fa-dizzy"></i></a></div>
+<div id="wb" class="web down"><a href="" target="blank"><i class="fas fa-dizzy"></i></a></div>
+<script type="text/javascript" src="index.js"></script>
+<script src="https://kit.fontawesome.com/73e1856950.js" crossorigin="anonymous"></script>
+</body>
+</html>
